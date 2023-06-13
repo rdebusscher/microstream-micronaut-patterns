@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: demo
+netty:
+  default:
+    allocator:
+      max-order: 3
+microstream:
+  storage:
+    main:
+      root-class: 'be.rubus.microstream.micronaut.example.database.Root'
+      storage-directory: target/storage
